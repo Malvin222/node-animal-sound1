@@ -1,0 +1,18 @@
+node.js 설치 (LTS버전)
+mkdir , cd -> 경로설정 
+npm init -> npm 작동을 시작 
+npm 사이트에서 api 검색후 사용 
+npm install express -> express 설치
+express (웹 프레임워크)
+
+--예제코드--
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+------------
+
+app.listen(3000)
+port -> ip주소의 해당 포트 할당 (세부적 연결)
