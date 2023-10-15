@@ -13,6 +13,8 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 ------------
+c:\nodejs\test1 node index.js -> js파일 실행
+
 
 app.listen(3000)
 port -> ip주소의 해당 포트 할당 (세부적 연결)
